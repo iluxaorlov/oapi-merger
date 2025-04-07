@@ -36,7 +36,7 @@ func main() {
 	}
 
 	if flagInputFile == "" {
-		errExit("input file is required")
+		errExit("please specify a path to a input file")
 	}
 
 	inputFilePath, err := filepath.Abs(flagInputFile)
